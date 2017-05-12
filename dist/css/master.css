@@ -1,0 +1,174 @@
+/*
+ * Typography
+ */
+
+h1 {
+  margin-bottom: 20px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #eee;
+}
+
+/*
+ * Top
+ */
+.top {
+  height: 70px;
+}
+
+#top-left {
+  background: #5caede;
+  padding-left: 15px;
+  padding-top: 15px;
+  color: #fff;
+  border-right: 1px solid #eee;
+}
+#top-left h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+#top-left h5 {
+  font-size: 1rem;
+}
+
+#top-right {
+  padding-top: 15px;
+  background: #fff;
+}
+#top-right .right-item {
+  margin-right: 90px;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  border-right: 1px solid #eee;
+  background: #293b51;
+}
+
+/* Sidebar navigation */
+.sidebar {
+  padding-left: 0;
+  padding-right: 0;
+  top: 70px;
+}
+
+.sidebar .nav {
+  margin-bottom: 20px;
+}
+
+.sidebar .nav-item {
+  width: 100%;
+}
+
+.sidebar .nav-item + .nav-item {
+  margin-left: 0;
+}
+
+.sidebar .nav-link {
+  border-radius: 0;
+  height: 55px;
+  line-height: 36px;
+  color: #e5e5e5;
+}
+.sidebar .nav-link:hover {
+  background: #5a7390;
+}
+
+.sidebar .nav-item .active {
+  background: #5a7390;
+}
+
+/*
+ * Dashboard
+ */
+
+ /* Placeholders */
+.placeholders {
+  padding-bottom: 3rem;
+}
+
+.placeholder img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Cards */
+.card-item {
+  border-radius: 2px;
+  background: #fff;
+}
+
+.card-item .row .col-7 {
+  padding-top: 7px;
+}
+
+
+.card-success {
+  border-top: 4px solid #72caaf;
+}
+.card-success .card-icon {
+  background: #72caaf;
+}
+.card-danger {
+  border-top: 4px solid #ed7899;
+}
+.card-danger .card-icon {
+  background: #ed7899;
+}
+.card-success .card-icon, .card-danger .card-icon {
+  margin: 10px;
+  height: 50px;
+  width: 50px;
+  line-height: 48px;
+}
+
+.card-icon .icon {
+  font-size: 2rem;
+}
+
+.card-icon::after {
+  content: "";
+  border-right: 1px solid gray;
+  position: relative;
+  left: 25px;
+  height: 40px;
+  font-size: 37px;
+  top: 1px;
+}
+
+.card-item h4, .card-item p {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+/* Main content */
+main {
+  background: #f3f4f6;
+}
+
+main #main-content {
+  min-height: calc(100vh - 70px);
+  padding-top: 20px;
+}
+
+/*
+ * Helper classes
+ */
+
+ .pointer {
+  cursor: pointer;
+ }
+
+ .color-white {
+  color: #fff;
+ }
